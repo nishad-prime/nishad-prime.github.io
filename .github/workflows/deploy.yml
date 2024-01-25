@@ -1,4 +1,4 @@
-name: Publish to GH Pages
+name: Deploy
 on:
   push:
     branches:

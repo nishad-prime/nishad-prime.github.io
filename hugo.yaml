@@ -1,0 +1,26 @@
+baseURL: 'https://nishad-prime.github.io/'
+languageCode: 'en-us'
+title: 'Prime Blogs'
+
+theme: 'PaperMod'
+
+params:
+  homeInfoParams:
+    Title: 'Prime Time With Egitsoft! 👌'
+    Content: 'The Best Software Development Company.'
+  
+  ShowReadingTime: true
+
+  socialIcons:
+    - name: 'email'
+      url: 'mailto:nasir@egitsoft.com'
+    - name: 'github'
+      url: 'https://github.com/nishad-prime'
+    - name: 'facebook'
+      url: 'https://facebook.com/'
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
